@@ -1,0 +1,17 @@
+{ "id": "monitoring",
+  "name": "monitoring",
+  "shortName":"monitoring",
+  "version":"0.01",
+  "description": "App that displays info from heart, compass, accelerometer and barometer",
+  "icon": "monitoring.png",
+  "tags": "",
+  "supports" : ["BANGLEJS2"],  
+  "readme": "README.md",
+  "storage": [
+    { "name": "monitoring.app.js", "url": "monitoring.js" },
+    { "name": "monitoring.img", "url": "monitoring-icon.js", "evaluate": true }
+  ],
+  "data": [
+    { "name": "monitoring.data.json", "url": "settings.json", "storageFile": true }
+  ]
+}
