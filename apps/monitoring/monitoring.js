@@ -16,7 +16,7 @@ let settings = require('Storage').readJSON(SETTINGS_FILENAME);
 
 // Menus
 let mainMenu = {
-  "": { "title": "--  Track  --" },
+  "": { "title": "-- Monitoring --" },
   "Acceleration": function() 
   { 
     E.showMenu(accMenu); 
